@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Navleft from './components/Navleft'
 import './style/common.less'
 
+
 export class admin extends Component {
     render () {
         return (
@@ -18,8 +19,8 @@ export class admin extends Component {
                             Header
                        </Header>
                         <Row className="content">
-                            content
-                       </Row>
+                            {this.props.children}
+                        </Row>
                         <Footer>
                             Footer
                         </Footer>
