@@ -41,7 +41,7 @@ class FormLogin extends Component {
                   rules: [
                     {
                       required: true,
-                      message: "用户名字不能为空"
+                      message: "用户名字不能为空z"
                     }
                   ]
                 })(<Input placeholder="请输入用户名" />)}
