@@ -46,7 +46,7 @@ const menuList = [
     key: "/form",
     children: [
       {
-        title: "登录",
+        title: "登录.",
         key: "/login"
       },
       {
